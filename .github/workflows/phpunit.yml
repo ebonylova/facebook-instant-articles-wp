@@ -32,7 +32,7 @@ jobs:
           ${{ runner.os }}-php-
 
     - name: Setup MySQL
-    - uses: samin/mysql-action@v1
+      uses: samin/mysql-action@v1
 
     - name: Run test suite
       run: bash ./bin/install-wp-tests.sh wordpress_test ${{ secrets.DB_USER }} ${{ secrets.DB_PASSWORD }} localhost latest WP_MULTISITE=0
