@@ -1,7 +1,7 @@
 {
   "name": "automattic/facebook-instant-articles-wp",
   "type": "wordpress-plugin",
-  "license": "GPL-2.0",
+  "license": "GPL-2.0-or-later",
   "description": "Add support for Instant Articles for Facebook to your WordPress site.",
   "authors": [
     {
@@ -26,7 +26,7 @@
   ],
   "require": {
     "php": ">=5.4",
-    "facebook/facebook-instant-articles-sdk-php": "^1.10.0",
+    "facebook/facebook-instant-articles-sdk-php": "^1.10.1",
     "facebook/facebook-instant-articles-sdk-extensions-in-php": "^0.2.1",
     "symfony/css-selector": "2.8.*",
     "facebook/graph-sdk": "^5.6"
